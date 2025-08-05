@@ -39,3 +39,18 @@ body {
   margin-top: 15px;
   font-weight: bold;
 }
+
+.tabela-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 30px;
+}
+
+#tabela-registros tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.tabela-scroll {
+  overflow-x: auto;
+  width: 100%;
+}
