@@ -14,18 +14,20 @@
       <button id="btn-entrada" class="btn verde" aria-label="Registrar entrada" tabindex="0">Registrar Entrada</button>
       <button id="btn-saida" class="btn vermelho" aria-label="Registrar saída" tabindex="0">Registrar Saída</button>
       <div id="status" class="status" aria-live="assertive"></div>
-      <table id="tabela-registros" style="width:100%;margin-top:30px;display:none;">
-        <thead>
-          <tr>
-            <th>Data</th>
-            <th>Entrada</th>
-            <th>Saída</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Registros serão inseridos aqui -->
-        </tbody>
-      </table>
+      <div class="tabela-wrapper">
+        <table id="tabela-registros" style="width:100%;margin-top:30px;display:none;">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Entrada</th>
+              <th>Saída</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Registros serão inseridos aqui -->
+          </tbody>
+        </table>
+      </div>
     </div>
   </main>
   <script type="module" src="script.js"></script>
